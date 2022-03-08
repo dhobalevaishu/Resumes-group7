@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=Oswald&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@300;500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=Oswald&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@300;500;900&family=Source+Sans+Pro:wght@300;400&family=Ubuntu&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=Oswald&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@300;500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 700px;
+  margin: auto;
+  box-shadow: 0px 0px 7px 2px #ad9a6f;
+  padding: 10px 60px 50px 40px;
+  font-family: PT serif;
+  font-size: 13px;
+  line-height: 22px;
+  background-color: #e7eaf3;
+}
+.first-div{
+  display: grid;
+  grid-template-columns: 38% 1fr;
+}
+.line{
+  color: black;
+  margin-right: 16px;
+  font-weight: bold;
+  font-size: 34px;}
+.name-para{
+  color: rgb(243, 180, 28);
+  font-size: 34px;
+  font-family: Audiowide;
+  letter-spacing: 3px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.post-para{
+  font-family: Ubuntu;
+  font-size: 20px;
+}
+.design-contact{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 34% 1fr;
+  column-gap: 25px;
+}
+.phone,.email,.location{
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  grid-template-rows: 10% 10% 10%;
+  row-gap:2px;
+  column-gap: 15px;
+}
+.con-para{
+  position: relative;
+  bottom: 5px;
+}
+.contact i{
+  color: #f3b41c;
+}
+.dot{
+  width:5px;
+  height: 5px;
+  background-color: black;
+  margin-right: 17px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.line1,.line2,.line3,.line4,.line5,.line6{
+  display: flex;
+}
+.line2,.line3,.line4,.line5,.line6{
+  margin-top: 15px;
+}
+.paragraph{
+  margin-top: 8px;
+  padding-top: 20px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-top-right-radius: 25px;
+  padding-bottom: 40px;
+  margin-right: -6px;
+  padding-right: 24px;
+  text-align: justify;
+}
+.second-div{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.education{
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-bottom-right-radius:25px;
+  margin-right:-21px;
+  padding-left: 90px;
+  padding-right: 10px;
+}
+.work{
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  padding-left: 50px;
+  padding-right: 20px;
+  border-top-right-radius:25px;
+  /* margin-right:-21px; */
+}
+.references{
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-bottom-right-radius:25px;
+  padding-bottom: 12px;
+}
+.heading{
+  font-family: Audiowide;
+  transform: rotate(90deg);
+  font-size: 21px;
+  letter-spacing: 3px;
+}
+.heading-work{
+  position: relative;
+  top: 156px;
+  left: 129px;
+}
+.heading-education{
+  position: relative;
+  top: 154px;
+  left: 127px;
+}
+.heading-refer{
+  color: rgb(243, 180, 28);
+  font-size: 21px;
+  font-family: Audiowide;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+.heading-skills{
+  position: relative;
+  top: 154px;
+  left: 122px;
+}
+.year{
+  background-color: #f3b41c;
+  display: inline-block;
+}
+.bold{
+  font-family: Audiowide;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+.edu-location,.expe-location{
+  font-weight: bold;
+  margin-bottom: 7px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+
+}
+.expe1,.expe2,.edu1,.edu2{
+  margin-bottom: 30px;
+}
+.work .year{
+  margin-bottom: 15px;
+}
+.education .year{
+  position: relative;
+  left: 140px;
+  bottom: 28px;
+}
+.refer{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 18px;
+}
+.refer1{
+  font-weight: bold;
+}
+.references{
+  padding-right: 20px;
+}
+.references hr{
+  border: 1px solid black;
+}
+.expe3 .para{
+  padding-bottom: 25px;
+}
+.progrssbar{
+  width: 100%;
+  height: 8px;
+  background-color: rgb(22, 21, 21);
+  margin-bottom: 19px;
+  position: relative;
+  top: 9px;
+}
+.fill{
+  background-color:#e2ba29;
+  height: 100%;
+}
+.fillprogess1{
+  width: 85%;
+}
+.fillprogess2{
+  width: 80%;
+}
+.fillprogess3{
+  width: 70%;
+}
+.fillprogess4{
+  width: 85%;
+}
+.fillprogess5{
+  width: 75%;
+}
+.fillprogess6{
+  width: 65%;
+}
+.skill-1{
+  display: grid;
+  grid-template-columns: 37% 1fr;
+  column-gap: 20px;
+}
+.skills{
+  margin-left: 90px;
+}
+.refer-phone,.refer-email{
+  margin-bottom: 10px;
+}
+.education .para{
+  margin-top: -10px;
+}
+.white-box{
+  width: 228px;
+  height: 13px;
+  background-color:#e7eaf3;
+  position: absolute;
+  top: 379px;
+}
+.yellow-box{
+  width: 138px;
+  height: 13px;
+  background-color: #e2ba29;
+  position: absolute;
+  top: 379px;
+}
+.boxs{
+  position: absolute;
+  top: 379px;
+  left: 516px;
+  display: grid;
+  grid-template-columns: 15px 15px 15px 15px;
+  column-gap: 4px;
+}
+.box{
+  width: 15px;
+  height: 13px;
+  border: 1px solid black;
+}
+.dot2{
+  position: relative;
+  bottom: 15px;
+  left: 2.4px;
+  font-size: 30px;
+}
+.b{
+  background-color: black;
+  margin-right: 5px;
+}
+.border1{
+  height: 7px;
+  width: 60px;
+}
+.border2{
+  height: 7px;
+  width: 38px;
+}
+.border3{
+  height: 7px;
+  width: 5px;
+}
+.border4{
+  height: 7px;
+  width: 38px;
+}
+.border5{
+  height: 7px;
+  width: 5px;
+}
+.border6{
+  height: 7px;
+  width: 34px;
+  margin-right: 3px;
+}
+.border7{
+  height: 7px;
+  width: 46px;
+}
+.dot-border{
+  display: flex;
+  position: absolute;
+  right: 384px;
+}
+.img{
+  background-color: #f2f7fa;
+  height: 316px;
+  padding-top: 38px;
+  padding-right: 25px;
+  width: 205px;
+  border-top-right-radius: 50px ;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+}
