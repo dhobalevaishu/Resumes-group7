@@ -213,26 +213,21 @@ h3{
   bottom: 10px;
 }
 .lang{
-  background-color: #c14831;
+  background-color: #cac7c2;
   padding: 40px 45px 20px 40px;
-  color: white;
-}
-.lang-name{
-  margin-bottom: 6px;
 }
 .progressbar{
   width: 100%;
+  background-color:#96938c;
   height: 9px;
-  background-color:#d8d7d6;
   margin-bottom: 20px;
 }
 .fill{
   height: 100%;
-  background-color:#96938c;
+  background-color: #cd4b37;
 }
 .fill1{
   width: 80%;
-
 }
 .fill2{
   width: 70%;
@@ -241,9 +236,8 @@ h3{
   width: 85%;
 }
 .projects{
-  background-color: #c14831;
+  background-color: #96938c;
   padding: 40px 45px 10px 40px;
-  color: white;
 }
 .p-link{
   color: rgb(103, 103, 218);
@@ -256,8 +250,9 @@ h3{
   padding-bottom: 50px;
 }
 .certi{
-  background-color:#96938c;
-  padding: 40px 45px 28px 40px;
+  background-color: #cd4b37;
+  color: white;
+  padding: 40px 45px 20px 40px;
 }
 .certi-para1{
   margin-bottom: 20px;
@@ -269,8 +264,8 @@ h3{
 }
 .references{
   background-color: #cac7c2;
-  padding: 40px 45px 40px 40px;
+  padding: 40px 45px 20px 40px;
 }
-.projects,.references{
+.lang,.projects,.certi,.references{
   display: none;
 }

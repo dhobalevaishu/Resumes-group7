@@ -125,12 +125,12 @@ h3{
 }
 .percent1{
   position: absolute;
-  top: 749px;
+  top: 1006px;
   left: 88px;
 }
 .percent2{
   position: absolute;
-  top: 749px;
+  top: 1004px;
   left: 239px;
 }
 .box1{
@@ -269,7 +269,7 @@ hr{
   margin-bottom: -23px;
 }
 .first-div h3{
-  margin-top: 31.3px;
+  margin-top: 35px;
   margin-bottom: 20px;
 }
 .skill-name{
@@ -343,7 +343,7 @@ hr{
   top: 2px;
 }
 .second-div hr{
-  margin-top: 35px;
+  margin-top: 30px;
 }
 .profile hr{
   margin-top: 13px;
@@ -357,5 +357,5 @@ hr{
   margin-bottom: 30px;
 }
 .references,.projects{
-  /* display: none; */
+  display: none;
 }
